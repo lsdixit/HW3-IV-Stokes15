@@ -178,7 +178,7 @@ export_summs(second_stage, digits = 3,
 
 2. Relevance : Wind speed is correlated with proposed wind turbines. We tested this in the first stage regression, where we saw a f-statistic greater than 10.
 
-3. Independence : Wind speed is randomly assigned and independent of the error term, and uncorrelated with omitted variables. 
+3. Ignorability : Wind speed is randomly assigned and independent of the error term, and uncorrelated with omitted variables. 
 
 4. Monotonicity : Wind speed does not negatively influence compliance of proposed wind turbines. Wind speed can encourage proposed wind turbines or have no effect, but never discourage.
 
